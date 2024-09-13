@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibely.life - Your Self Care Marketplace</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+            color: #333;
+        }
+
+        /* Center content horizontally and vertically */
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        /* Logo */
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #48A14D; /* Greenish color */
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        /* Tagline */
+        .tagline {
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: #48A14D; /* Greenish color */
+            margin-bottom: 40px;
+        }
+
+        /* Hero Section */
+        .hero-image {
+            width: 100%;
+            height: 600px;
+            background-image: url('your-image-path.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            box-shadow: 8px 8px 16px #d1d1d1, -8px -8px 16px #ffffff;
+        }
+
+        .hero-text {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            color: #48A14D; /* Greenish color */
+        }
+
+        /* Join Us Button */
+        .join-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 3rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #48A14D;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 8px 8px 16px #d1d1d1, -8px -8px 16px #ffffff;
+            transition: all 0.3s ease;
+        }
+
+        .join-button:hover {
+            background-color: #3e8f41;
+        }
+
+        /* Google Form Container */
+        .form-container {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 8px 8px 16px #d1d1d1, -8px -8px 16px #ffffff;
+        }
+
+        /* Social Media Links */
+        .social-links {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-links a {
+            color: #48A14D;
+            text-decoration: none;
+            font-size: 1.5rem;
+            box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
+            padding: 15px;
+            border-radius: 10%;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #3e8f41;
+            box-shadow: 4px 4px 8px #b1b1b1, -4px -4px 8px #f0f0f0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        /* Neumorphic Button Hover Effect */
+        .join-button:active {
+            box-shadow: 4px 4px 8px #b1b1b1, -4px -4px 8px #ffffff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-image {
+                height: 200px;
+            }
+
+            .tagline {
+                font-size: 1.5rem;
+            }
+
+            .join-button {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+
+            .social-links a {
+                font-size: 1.2rem;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="logo.jpg" alt="">
+            <!-- amake image fit inside parent -->
+            <style>
+                img {
+                    width: 150px;
+                    height: 150px;
+                    object-fit: contain;
+                    border-radius: 20px;
+                }
+                </style>
+
+
+        </div>
+
+        <!-- Tagline -->
+        <div style="font-weight: bold;" class="tagline">Your Self Care Marketplace</div>
+
+        <!-- Hero Section with Invitation for Spas -->
+        <div class="hero-image">
+            <img id="listing" src="listing.png" alt="">
+            <!-- amake image fit inside parent -->
+            <style>
+                #listing {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    border-radius: 20px;
+                }
+                </style>
+        </div>
+
+        <!-- Join Us Button -->
+        <button class="join-button">
+            <!-- make the link text white -->
+            <a style="text-decoration: none; color: white;" target="_blank" 
+                href="https://forms.gle/7bz6j4s2rwVJCBFz7">Fill Up the Form</a>
+        </button>
+
+        
+    </div>
+
+    <!-- Social Links -->
+    <div class="social-links">
+        <a href="https://www.instagram.com/vibely.life/" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://www.facebook.com/vibely.life" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://www.tiktok.com/@vibely.life" target="_blank">
+            <i class="fab fa-tiktok"></i> TikTok
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2024 Vibely.life. All rights reserved.
+    </footer>
+
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    
+
+</body>
+</html>
